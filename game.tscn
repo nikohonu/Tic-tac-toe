@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://game.gd" type="Script" id=1]
+[ext_resource path="res://cell.tscn" type="PackedScene" id=2]
+[ext_resource path="res://fonts/iosevka-regular.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 69
+font_data = ExtResource( 3 )
+
+[node name="Game" type="Node2D"]
+script = ExtResource( 1 )
+cell_scene = ExtResource( 2 )
+
+[node name="Container" type="CenterContainer" parent="."]
+margin_top = 540.0
+margin_right = 540.0
+margin_bottom = 640.0
+
+[node name="Label" type="Label" parent="Container"]
+margin_left = 7.0
+margin_top = 6.0
+margin_right = 532.0
+margin_bottom = 93.0
+custom_fonts/font = SubResource( 1 )
+text = "Player 1's turn"

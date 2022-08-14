@@ -11,7 +11,18 @@ config_version=4
 [application]
 
 config/name="Tic-tac-toe"
+run/main_scene="res://game.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=540
+window/size/height=640
+window/size/resizable=false
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/godot_pixelorama_importer/plugin.cfg" )
 
 [gui]
 

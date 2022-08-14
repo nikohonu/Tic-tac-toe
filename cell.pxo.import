@@ -1,0 +1,13 @@
+[remap]
+
+importer="com.technohacker.pixelorama"
+type="StreamTexture"
+path="res://.import/cell.pxo-76c0f143c6f66fa9b31ea94c2613ce36.stex"
+
+[deps]
+
+source_file="res://cell.pxo"
+dest_files=[ "res://.import/cell.pxo-76c0f143c6f66fa9b31ea94c2613ce36.stex" ]
+
+[params]
+
